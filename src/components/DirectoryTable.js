@@ -76,7 +76,7 @@ const DirectoryTable = (props) => {
                   onClick={() => requestSort("first_name")}
                   className={getClassNamesFor("first_name")}
                 >
-                  First Name
+                  GFirst Name
                 </button>
               </th>
               <th>

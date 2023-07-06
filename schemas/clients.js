@@ -6,9 +6,10 @@ const clients = mongoose.Schema({
     password:String,
     telefono: String,
     tipo_id: String,
-    identificacion: String
+    identificacion: String,
+    rol: String
 });
 
-const Clients = new mongoose.model('client', clients);
+const Client = mongoose.model('Client', clients);
 
-module.exports = Clients;
+module.exports = Client;

@@ -22,7 +22,7 @@ const EditUserForm = (props) => {
     >
       <div className="form-group">
         <h2>Edit User</h2>
-        <label>First Name</label>
+        <label>LFirst Name</label>
         <input
           type="text"
           name="first_name"

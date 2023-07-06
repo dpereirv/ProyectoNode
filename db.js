@@ -5,7 +5,7 @@ const PASSWORD = '7XQQ4fJlqS3dUzHt';
 const DATABASE_NAME = 'practica3';
 
 
-const URL = `mongodb+srv://dpereirv:CdxikyUjRIQSTwOM@cluster0.apapsky.mongodb.net/practica3?retryWrites=true&w=majority`;
+const URL = 'mongodb+srv://dpereirv:CdxikyUjRIQSTwOM@cluster0.apapsky.mongodb.net/practica3?retryWrites=true&w=majority';
              
 mongoose.connect(URL)
 .then(() => {

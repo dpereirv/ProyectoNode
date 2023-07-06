@@ -28,9 +28,9 @@ const AddUserForm = (props) => {
         setUser(initialFormState);
       }}
     >
-      <h2>Add User</h2>
+      <h2>Add User2</h2>
       <div className="form-group">
-        <label>First Name</label>
+        <label>FFirst Name</label>
         <input
           type="text"
           name="first_name"

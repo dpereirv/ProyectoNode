@@ -35,8 +35,19 @@ function deleteClient(id, cb) {
     })
 }
 
+function updateClient(id, updatedData, cb) {
+    Clients.findByIdAndUpdate(id, updatedData, { new: true })
+      .then((elem) => {
+        return cb(null, elem);
+      })
+      .catch((error) => {
+        console.log('Error:', error);
+        return cb(error);
+      });
+  }
 
 
 exports.getClient = getClient;
 exports.createClient = createClient;
 exports.deleteClient = deleteClient;
+exports.updateClient = updateClient;
